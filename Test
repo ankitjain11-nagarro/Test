@@ -1,2 +1,57 @@
-Dear Customer, Your Next Thrill is just a turn away. Best time to Own New Maruti Suzuki Alto K10. #Take Of In Style Check out now #placeholder1# TnC
-{"templateCode":"TEMP-010233","recipients":["9810062047"],"resolvePlaceholders":true,"templatePlaceholderDetail":{"mediaPlaceholders":[{"code":"#mediaUrl1#","value":"Media Url 1","sequence":"0","type":"RCS_Media","response":"RCS/videos/card_dvideo_sthumbna_mediaUrl3.mp4"}]}}
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Data;
+import java.util.List;
+import java.util.Map;
+
+@Data
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class TemplateDTO {
+    private String sequence;
+    private Map<String, String> templateParams;
+    
+    @JsonProperty("cta")
+    private List<CTA> ctaList;
+    
+    @JsonProperty("callBack")
+    private List<CallBack> callBackList;
+
+    // Custom deserialization for JSON string in 'cta' and 'callBack'
+    public void setCta(String ctaJson) {
+        this.ctaList = JsonUtil.convertJsonToList(ctaJson, CTA.class);
+    }
+
+    public void setCallBack(String callBackJson) {
+        this.callBackList = JsonUtil.convertJsonToList(callBackJson, CallBack.class);
+    }
+}
+
+@Data
+@JsonIgnoreProperties(ignoreUnknown = true)
+class CTA {
+    private String sequence;
+    private Map<String, String> ctaValues;
+}
+
+@Data
+@JsonIgnoreProperties(ignoreUnknown = true)
+class CallBack {
+    private String sequence;
+    private Map<String, String> callBackValues;
+}
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import java.util.List;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+        String json = "[{\"sequence\": \"0\", \"templateParams\": {\"mediaUrl1\": \"Amey\", \"placeholder1\": \"Amey\", \"placeholder2\": \"Amey\"}, \"cta\": \"[{\\\"sequence\\\": \\\"0\\\", \\\"cta1\\\": \\\"Amey\\\"}]\"},"
+                + "{\"sequence\": \"1\", \"templateParams\": {\"mediaUrl2\": \"Amey\", \"placeholder3\": \"Amey\", \"placeholder4\": \"Amey\"}, \"cta\": \"[{\\\"sequence\\\": \\\"0\\\", \\\"cta2\\\": \\\"Amey\\\"}]\", \"callBack\": \"[{\\\"sequence\\\": \\\"1\\\", \\\"callback1\\\": \\\"8208730681\\\"}]\"}]";
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        List<TemplateDTO> templates = objectMapper.readValue(json, new com.fasterxml.jackson.core.type.TypeReference<List<TemplateDTO>>() {});
+
+        // Print to verify
+        System.out.println(templates);
+    }
+}
