@@ -1,0 +1,116 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "0e8dd415-216f-4914-834e-8d5024e14047",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1734077833347"
+        }
+      },
+      "favorite": {
+        "name": "DEV-Reporting-DB"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://commdevdocdb:yndkfzq52IA899b@docdb-2023-11-28-12-30-01.c98xt1ohv1jd.ap-south-1.docdb.amazonaws.com:27017/?tls=true&retryWrites=false&tlsCAFile=C%3A%5CSandeepKumar%5Crds-combined-ca-bundle-temp.pem",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    },
+    {
+      "id": "29144418-f1ba-497e-8dbe-e7c73eea60d3",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1734081588641"
+        }
+      },
+      "favorite": {
+        "name": "DEV-Reporting-DB-READ-ONLY"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://readonly:DocDbDev%231312@docdb-2023-11-28-12-30-01.c98xt1ohv1jd.ap-south-1.docdb.amazonaws.com:27017/?tls=true&retryWrites=false&tlsCAFile=C%3A%5CSandeepKumar%5Crds-combined-ca-bundle-temp.pem",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    },
+    {
+      "id": "4251e4b0-e4a4-475a-b5e2-74a4266a76bc",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1734082380389"
+        }
+      },
+      "favorite": {
+        "name": "QA-Reporting-db"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://commqadocdb:marutiworld123@comm-qa-docdb-19-01-2024.c98xt1ohv1jd.ap-south-1.docdb.amazonaws.com:27017/?tls=true&tlsCAFile=C%3A%5CSandeepKumar%5Crds-combined-ca-bundle-temp.pem",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    },
+    {
+      "id": "7521b450-1e53-47b4-873c-32e2fa6484a4",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1734082522773"
+        }
+      },
+      "favorite": {
+        "name": "QA-Reporting-db -READ-ONLY"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://readonly:DocDbQA%233479@comm-qa-docdb-19-01-2024.c98xt1ohv1jd.ap-south-1.docdb.amazonaws.com:27017/?tls=true&tlsCAFile=C%3A%5CSandeepKumar%5Crds-combined-ca-bundle-temp.pem",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    },
+    {
+      "id": "7865e65f-5435-4ad7-a12f-e385d8b0a9d2",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1733228743397"
+        }
+      },
+      "favorite": {
+        "name": ""
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    },
+    {
+      "id": "e8024ece-0da6-4bea-9980-f48a0236aaa4",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1733403946131"
+        }
+      },
+      "favorite": {
+        "name": "DEV-campaign-segment"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://campaignsegmentdev:campaignsegmentdev1295@cm-campaign-segment-dev.c98xt1ohv1jd.ap-south-1.docdb.amazonaws.com:27017/?retryWrites=false",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}
