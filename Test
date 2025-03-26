@@ -1,1 +1,5 @@
-https://www.marutisuzuki.com/channels/arena/all-cars
+select cta.param_placeholder as param_placeholder, wa.form_code as template_form_code, cta.form_code as cta_form_code, wa.sequence as card_sequence, cta.sequence as cta_sequence
+FROM templates t
+INNER JOIN whatsapp_template wa ON t.id = wa.template_id
+INNER JOIN whatsapp_template_cta cta ON wa.id = cta.whatsapp_template_id
+WHERE t.code = 'TEMP-011368' AND cta.button_action IN ('Dynamic CTA','Web Form Url') order by wa.sequence ASC, cta.sequence ASC
