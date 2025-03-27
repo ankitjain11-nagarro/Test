@@ -1,1 +1,65 @@
-b974c6ae-5aaa-49b3-9528-8f749cd0f859
+/** 
+* Paste one or more documents here
+*/
+{
+  "transactionId": "b974c6ae-5aaa-49b3-9528-8f749cd0f859",
+  "tclTransactionId": "370e23a5-34e6-4cac-9d24-9a7bd6b4d791",
+  "status": "READ",
+  "requestType": "BULK",
+  "urlShorten": true,
+  "carouselDetails": [
+    {
+      "sequence": "0",
+      "title": "Welcome back",
+      "message": "short: https://www.youtube.com/@MarutiSuzukiCorp",
+      "cta": [
+        {
+          "sequence": "0",
+          "subType": "url",
+          "paramValue": ""
+        }
+      ]
+    },
+    {
+      "sequence": "1",
+      "title": "Welcome back",
+      "message": "Swift: https://dev.formsmarutisuzuki.com/form/FR-000089/SEG-00000780/Samyak/Samyak/Samyak/Samyak/Samyak",
+      "cta": [
+        {
+          "sequence": "0",
+          "subType": "call_back",
+          "paramValue": "9479875075"
+        }
+      ]
+    }
+  ],
+  "dndFilteringRequired": false,
+  "tinyUrl": {
+    "shortUrl": "https://su.digo.link/752706146",
+    "url": "https://www.youtube.com/@MarutiSuzukiCorp",
+    "title": "https://www.youtube.com/@MarutiSuzukiCorp",
+    "clicks": "0",
+    "os": "Desktop\\Tablet"
+  },
+  "senderId": "9311142978",
+  "campaignCode": "CAMP-00000554",
+  "campaignName": "carousel-tiny-p",
+  "templateCode": "TEMP-011188",
+  "templateName": "carousel-tiny-p",
+  "businessDivision": "CMGR",
+  "channel": "RCS",
+  "submitDate": {
+    "$date": "2025-03-27T12:06:58.869Z"
+  },
+  "messageType": "PROMOTIONAL",
+  "recipientId": "919479875075",
+  "correlationId": "af8a2ffd-b8c3-49ac-be4f-b0f4b8a7bf5f",
+  "organization": "MSIL",
+  "vertical": "DE",
+  "division": "DE",
+  "department": "DES",
+  "modifiedDate": {
+    "$date": "2025-03-27T12:13:26.688Z"
+  },
+  "_class": "com.msil.cm.reporting.domain.model.RcsReport"
+}
