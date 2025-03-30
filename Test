@@ -1,9 +1,1 @@
-{
-    "campaignTemplateInfo": [
-        {
-            "campaignName": "RegressiononlyCaraouselctawebform",
-            "templateName": "RegressiononlyCaraouselctawebform"
-        }
-    ],
-    "modeOfExecution": "NORMAL"
-}
+config.getDefaultRcsTinyUrlPlaceholder()
