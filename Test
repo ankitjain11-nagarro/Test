@@ -1,4 +1,1 @@
-private Mono<TemplateBundle> validateRegularTemplateBundle(TemplateBundle templateBundle, boolean isOrchestrateMode, List<WhatsAppCTA> whatsAppList) {
-		if (whatsAppList.size() > 1 && Boolean.FALSE.equals(isOrchestrateMode)) {
-			return Mono.error(new BadRequestException(MULTIPLE_CTA_NOT_SUPPORTED));
-		}
+Segment creation not supported for Multiple CTA
