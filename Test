@@ -1,11 +1,1 @@
-List<WhatsAppCTA> whatsAppList = ctaPlaceholderMap.getSubTemplateInfoList().stream()
-				.filter(subTemplate -> REGULAR.equals(subTemplate.getType()) && !ObjectUtils.isEmpty(subTemplate.getCta()))
-				.flatMap(subTemplateInfo -> subTemplateInfo.getCta().stream()
-						.filter(cta -> URL.equals(cta.getSubType())))
-				.collect(Collectors.toList());
-		List<WhatsAppCTA> subTypeCtaList = whatsAppList.stream()
-				.filter(cta -> URL.equals(cta.getSubType()))
-				.collect(Collectors.toList());
-		if (subTypeCtaList.size() > 1 && ModeOfExecution.NORMAL.name().equals(ctaPlaceholderMap.getModeOfExecution())) {
-			return Mono.error(new BadRequestException(MULTIPLE_CA_NOT_SUPPORTED));
-		}
+Carousel templates are not supported in Orchestrate mode
