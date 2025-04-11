@@ -1,6 +1,43 @@
-    NONE("None"),
-    DOT_SEQUENCE("Dot Sequence"),
-    PARENTHESIS_SEQUENCE("Parenthesis Sequence"),
-    ROMAN_SEQUENCE("Roman Sequence"),
-    CIRCLE_BULLET("Circle Bullet"),
-    SQUARE_BULLET("Square Bullet");
+{
+  "_id": {
+    "$oid": "67f778b6289ab9216c61a2aa"
+  },
+  "formCode": "FR-000144",
+  "formSequenceId": 144,
+  "organizationDetail": {
+    "organization": "MSIL",
+    "division": "DE",
+    "vertical": "DE",
+    "department": "DES"
+  },
+  "formName": "test-marker-3",
+  "formDescription": "test",
+  "status": "Draft",
+  "logoUrl": "https://d1fcy6e4845263.cloudfront.net/logos/LogoMSIL-20240701-0636241-main.png",
+  "bannerUrl": [],
+  "supportedLanguages": [
+    {
+      "langCode": "ENG",
+      "langDescription": "English",
+      "active": true,
+      "published": false,
+      "defaultStatus": true
+    }
+  ],
+  "dynamicUrlFlag": false,
+  "createdBy": "",
+  "createdOn": {
+    "$date": "2025-04-10T07:52:22.120Z"
+  },
+  "modifiedBy": "",
+  "modifiedOn": {
+    "$date": "2025-04-10T07:52:22.120Z"
+  },
+  "type": "Stand Alone",
+  "footer": "",
+  "autoScrollTimeGap": 0,
+  "orientation": "horizontal",
+  "maxSubmissionCount": 1,
+  "markerType": "roman-sequence",
+  "_class": "com.msil.cm.form.domain.model.Form"
+}
