@@ -1,1 +1,6 @@
-db/ddl.sql/013-transaction_log_audit.xml::013-transaction_log_audit::Ankit
+    NONE("None"),
+    DOT_SEQUENCE("Dot Sequence"),
+    PARENTHESIS_SEQUENCE("Parenthesis Sequence"),
+    ROMAN_SEQUENCE("Roman Sequence"),
+    CIRCLE_BULLET("Circle Bullet"),
+    SQUARE_BULLET("Square Bullet");
