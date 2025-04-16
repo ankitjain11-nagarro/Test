@@ -1,6 +1,4 @@
-SendEmailRequest emailRequest = SendEmailRequest.builder()
-                    .destination(destination)
-                    .message(message)
-                    .source(from)
-                    .configurationSetName(configSet) // 👈 Enables delivery/open/click tracking
-                    .build();
+   String from = "verified-sender@example.com";
+        String[] to = {"recipient1@example.com", "recipient2@example.com"};
+        String subject = "Test SES Email with Tracking";
+        String body = "This is a test email with tracking enabled.";
