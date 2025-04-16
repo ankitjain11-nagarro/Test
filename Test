@@ -1,1 +1,6 @@
-Whatsappdynamicdiff
+SendEmailRequest emailRequest = SendEmailRequest.builder()
+                    .destination(destination)
+                    .message(message)
+                    .source(from)
+                    .configurationSetName(configSet) // 👈 Enables delivery/open/click tracking
+                    .build();
