@@ -1,7 +1,24 @@
-Destination destination = Destination.builder().toAddresses(to).build();
+try (SesClient sesClient = SesClient.builder().region(Region.US_EAST_1).build()) {
+ 
+            Destination destination = Destination.builder().toAddresses(to).build();
  
             Content contentSubject = Content.builder().data(subject).build();
             Content contentBody = Content.builder().data(body).build();
             Body emailBody = Body.builder().text(contentBody).build();
  
             Message message = Message.builder().subject(contentSubject).body(emailBody).build();
+ 
+            SendEmailRequest emailRequest = SendEmailRequest.builder()
+                    .destination(destination)
+                    .message(message)
+                    .source(from)
+                    .configurationSetName(configSet) // 👈 Enables delivery/open/click tracking
+                    .build();
+ 
+            SendEmailResponse response = sesClient.sendEmail(emailRequest);
+            System.out.println("Email sent! Message ID: " + response.messageId());
+ 
+        } catch (SesException e) {
+            e.printStackTrace();
+        }
+    }
