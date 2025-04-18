@@ -15,9 +15,7 @@ public class EmailReport extends DocumentBaseEntity {
     private String errorDesc;
     private List<String> attachmentFilePaths;
     private String senderId;
-    private List<String> recipientTo;
-    private List<String> recipientCc;
-    private List<String> recipientBcc;
+    private String recipientId;
     private String recipientType;
     @Indexed
     private String messageId;
