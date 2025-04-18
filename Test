@@ -1,10 +1,36 @@
-<dependency>
-			<groupId>software.amazon.awssdk</groupId>
-			<artifactId>ses</artifactId>
-			<version>2.31.21</version>
-		</dependency>
-		<dependency>
-			<groupId>software.amazon.awssdk</groupId>
-			<artifactId>protocol-core</artifactId>
-			<version>2.31.21</version>
-		</dependency>
+public class EmailReport extends DocumentBaseEntity {
+    @Id
+    private String id;
+    @Indexed
+    private String transactionId;
+    private String campaignName;
+    private String templateName;
+    @Indexed
+    private String campaignCode;
+    private String templateCode;
+    private String businessDivision;
+    private String channel;
+    private String subject;
+    private String errorCode;
+    private String errorDesc;
+    private List<String> attachmentFilePaths;
+    private String senderId;
+    private List<String> recipientTo;
+    private List<String> recipientCc;
+    private List<String> recipientBcc;
+    private String recipientType;
+    @Indexed
+    private String messageId;
+    private String content;
+    @Indexed
+    private String status;
+    @Indexed
+    private String requestType;
+    @Transient
+    private String submitDateLambda;
+    private Instant submitDate;
+    private String correlationId;
+    private Boolean priority;
+    private Instant modifiedDate;
+
+}
