@@ -1,2 +1,76 @@
-CMGR_Sprint50_LZ-ActivateDeactivateSender
-CMGR_Sprint50_LZ-SenderEmailCache
+{
+    "eventType": "Send",
+    "mail": {
+        "timestamp": "2025-04-18T00:07:12.019Z",
+        "source": "info@dev.mailmarutisuzuki.com",
+        "sourceArn": "arn:aws:ses:ap-south-1:826783294980:identity/dev.mailmarutisuzuki.com",
+        "sendingAccountId": "826783294980",
+        "messageId": "0109019646388793-e6f2f0d0-81a3-48bb-9ae4-9f51e3530818-000001",
+        "destination": [
+            "ankjain77@gmail.com"
+        ],
+        "headersTruncated": false,
+        "headers": [
+            {
+                "name": "Date",
+                "value": "Fri, 18 Apr 2025 00:07:11 +0000 (UTC)"
+            },
+            {
+                "name": "From",
+                "value": "info@dev.mailmarutisuzuki.com"
+            },
+            {
+                "name": "To",
+                "value": "ankjain77@gmail.com"
+            },
+            {
+                "name": "Message-ID",
+                "value": "<159917166.1.1744934831651@[169.254.42.177]>"
+            },
+            {
+                "name": "Subject",
+                "value": "abc"
+            },
+            {
+                "name": "MIME-Version",
+                "value": "1.0"
+            },
+            {
+                "name": "Content-Type",
+                "value": "multipart/mixed;  boundary=\"----=_Part_0_778337881.1744934831521\""
+            }
+        ],
+        "commonHeaders": {
+            "from": [
+                "info@dev.mailmarutisuzuki.com"
+            ],
+            "date": "Fri, 18 Apr 2025 00:07:11 +0000 (UTC)",
+            "to": [
+                "ankjain77@gmail.com"
+            ],
+            "messageId": "0109019646388793-e6f2f0d0-81a3-48bb-9ae4-9f51e3530818-000000",
+            "subject": "abc"
+        },
+        "tags": {
+            "ses:source-tls-version": [
+                "TLSv1.3"
+            ],
+            "ses:operation": [
+                "SendRawEmail"
+            ],
+            "ses:configuration-set": [
+                "my-first-configuration-set"
+            ],
+            "ses:source-ip": [
+                "13.234.172.64"
+            ],
+            "ses:from-domain": [
+                "dev.mailmarutisuzuki.com"
+            ],
+            "ses:caller-identity": [
+                "lambda_role"
+            ]
+        }
+    },
+    "send": {}
+}
