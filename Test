@@ -1,13 +1,5 @@
-AmazonSNS snsClient = AmazonSNSClientBuilder.standard().withRegion(Regions.AP_SOUTH_1).build();
-        Map<String, MessageAttributeValue> snsAttributes = new HashMap<>();
-        snsAttributes.put("messageType", new MessageAttributeValue().withDataType("String").withStringValue("priority"));
-
-        PublishRequest request = new PublishRequest();
-        request.setTopicArn("arn:aws:sns:ap-south-1:826783294980:ses-deliveries-poc");
-        request.setMessage("Hello World");
-        request.setMessageAttributes(snsAttributes);
-        logger.log("request: " + request.toString());
-
-        PublishResult publish = snsClient.publish(request);
-
-        logger.log("messageId: " + publish.getMessageId());
+{
+  "mail.tags.messageType": [
+    "transactional"
+  ]
+}
