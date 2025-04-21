@@ -1,25 +1,2 @@
-<dependency>
-    <groupId>com.google.guava</groupId>
-    <artifactId>guava</artifactId>
-    <version>32.1.2-jre</version>
-</dependency>
-
-import com.google.common.util.concurrent.RateLimiter;
-
-public class EmailSender {
-
-    // Allow 14 emails per second
-    private static final RateLimiter rateLimiter = RateLimiter.create(14.0);
-
-    public void sendEmail(SendEmailRequest request) {
-        // Acquire a permit before sending
-        rateLimiter.acquire();
-
-        // Your SES email send logic here
-        AmazonSimpleEmailService client = AmazonSimpleEmailServiceClientBuilder.standard()
-                .withRegion(Regions.AP_SOUTH_1)
-                .build();
-
-        client.sendEmail(request);
-    }
-}
+DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss.SSS");
+System.out.println("Sending email #" + i + " at " + LocalTime.now().format(formatter));
