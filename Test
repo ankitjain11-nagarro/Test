@@ -1,1 +1,1 @@
-https://github.com/MSILDigital/cm-notification-lambda-service/pulls
+delegate.deleteMessageFromSqsWithArn(sqsMessage, sqsMessage.getEventSourceArn());
