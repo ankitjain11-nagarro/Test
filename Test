@@ -1,2 +1,1 @@
-DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss.SSS");
-System.out.println("Sending email #" + i + " at " + LocalTime.now().format(formatter));
+https://d609xyp0adb3o.cloudfront.net
