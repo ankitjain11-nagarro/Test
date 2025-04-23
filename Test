@@ -1,10 +1,1 @@
-public <T> T receiveAndConvert(String message, Class<T> returnType)
-			throws JSONException, JsonMappingException, JsonProcessingException {
-		JSONObject jsonObject = new JSONObject(message);
-		try {
-			return objectMapper.readValue(jsonObject.getString("Message"), returnType);
-		} catch (JSONException | JsonMappingException  ex) {
-			log.error("[SNSSQSDelegate - receiveAndConvert() - Error while processing JSON and getting the JSON from Message tag. Error: {}]", ex.getMessage());
-			return objectMapper.readValue(message, returnType);
-		}
-	}
+fff3f0ea-142b-4705-be89-06a034aceb1c
