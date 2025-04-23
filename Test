@@ -1,1 +1,79 @@
-01090196624ef08c-14ad52a8-6322-4a6a-982f-301df1a8b957-000000
+{
+    "eventType": "Open",
+    "mail": {
+        "timestamp": "2025-04-23T11:01:02.732Z",
+        "source": "info@qa.mailmarutisuzuki.com",
+        "sendingAccountId": "826783294980",
+        "messageId": "01090196624ef08c-14ad52a8-6322-4a6a-982f-301df1a8b957-000000",
+        "destination": [
+            "ankjain77@gmail.com"
+        ],
+        "headersTruncated": false,
+        "headers": [
+            {
+                "name": "Date",
+                "value": "Wed, 23 Apr 2025 11:01:02 +0000 (UTC)"
+            },
+            {
+                "name": "From",
+                "value": "info@qa.mailmarutisuzuki.com"
+            },
+            {
+                "name": "To",
+                "value": "ankjain77@gmail.com"
+            },
+            {
+                "name": "Message-ID",
+                "value": "<795594631.1.1745406062262@[169.254.39.227]>"
+            },
+            {
+                "name": "Subject",
+                "value": "subject"
+            },
+            {
+                "name": "MIME-Version",
+                "value": "1.0"
+            },
+            {
+                "name": "Content-Type",
+                "value": "multipart/mixed;  boundary=\"----=_Part_0_1940912369.1745406062141\""
+            }
+        ],
+        "commonHeaders": {
+            "from": [
+                "info@qa.mailmarutisuzuki.com"
+            ],
+            "date": "Wed, 23 Apr 2025 11:01:02 +0000 (UTC)",
+            "to": [
+                "ankjain77@gmail.com"
+            ],
+            "messageId": "01090196624ef08c-14ad52a8-6322-4a6a-982f-301df1a8b957-000000",
+            "subject": "subject"
+        },
+        "tags": {
+            "ses:source-tls-version": [
+                "TLSv1.3"
+            ],
+            "ses:operation": [
+                "SendRawEmail"
+            ],
+            "ses:configuration-set": [
+                "email-config-set-qa"
+            ],
+            "ses:source-ip": [
+                "3.7.199.136"
+            ],
+            "ses:from-domain": [
+                "qa.mailmarutisuzuki.com"
+            ],
+            "ses:caller-identity": [
+                "lambda_role"
+            ]
+        }
+    },
+    "open": {
+        "timestamp": "2025-04-23T11:01:05.955Z",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246 Mozilla/5.0",
+        "ipAddress": "66.249.89.37"
+    }
+}
