@@ -260,3 +260,98 @@
         "linkTags": null
     }
 }
+
+{
+    "eventType": "Bounce",
+    "bounce": {
+        "feedbackId": "010901966ac73aaf-9735b356-c0f1-4a2b-a8ea-2150d4a58cc6-000000",
+        "bounceType": "Permanent",
+        "bounceSubType": "General",
+        "bouncedRecipients": [
+            {
+                "emailAddress": "ankjain77@inva.com",
+                "action": "failed",
+                "status": "5.1.1",
+                "diagnosticCode": "smtp; 550 5.1.1 <ankjain77@inva.com>: Recipient address rejected: User unknown"
+            }
+        ],
+        "timestamp": "2025-04-25T02:29:23.826Z",
+        "remoteMtaIp": "148.163.129.50",
+        "reportingMTA": "dns; c180-26.smtp-out.ap-south-1.amazonses.com"
+    },
+    "mail": {
+        "timestamp": "2025-04-25T02:29:19.880Z",
+        "source": "info@dev.mailmarutisuzuki.com",
+        "sourceArn": "arn:aws:ses:ap-south-1:826783294980:identity/dev.mailmarutisuzuki.com",
+        "sendingAccountId": "826783294980",
+        "messageId": "010901966ac72b88-84543cd5-5d74-43cf-a292-3a9c5d8093f9-000000",
+        "destination": [
+            "ankjain77@inva.com"
+        ],
+        "headersTruncated": false,
+        "headers": [
+            {
+                "name": "Date",
+                "value": "Fri, 25 Apr 2025 02:29:19 +0000 (UTC)"
+            },
+            {
+                "name": "From",
+                "value": "info@dev.mailmarutisuzuki.com"
+            },
+            {
+                "name": "To",
+                "value": "ankjain77@inva.com"
+            },
+            {
+                "name": "Message-ID",
+                "value": "<293667566.3.1745548159755@[169.254.60.239]>"
+            },
+            {
+                "name": "Subject",
+                "value": "Hi abc"
+            },
+            {
+                "name": "MIME-Version",
+                "value": "1.0"
+            },
+            {
+                "name": "Content-Type",
+                "value": "multipart/mixed;  boundary=\"----=_Part_2_1760763936.1745548159677\""
+            }
+        ],
+        "commonHeaders": {
+            "from": [
+                "info@dev.mailmarutisuzuki.com"
+            ],
+            "date": "Fri, 25 Apr 2025 02:29:19 +0000 (UTC)",
+            "to": [
+                "ankjain77@inva.com"
+            ],
+            "messageId": "010901966ac72b88-84543cd5-5d74-43cf-a292-3a9c5d8093f9-000000",
+            "subject": "Hi abc"
+        },
+        "tags": {
+            "ses:source-tls-version": [
+                "TLSv1.3"
+            ],
+            "ses:operation": [
+                "SendRawEmail"
+            ],
+            "ses:configuration-set": [
+                "email-config-set-dev"
+            ],
+            "requestType": [
+                "priority"
+            ],
+            "ses:source-ip": [
+                "13.234.172.64"
+            ],
+            "ses:from-domain": [
+                "dev.mailmarutisuzuki.com"
+            ],
+            "ses:caller-identity": [
+                "lambda_role"
+            ]
+        }
+    }
+}
