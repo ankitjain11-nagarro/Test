@@ -1,18 +1,1 @@
-{
-    "type": "API",
-    "subType": "Normal",
-    "wabaBundle": [{
-            "wabaCode": "WA-0001",
-            "wabaName": "WABA_API_Normal_Realtime",
-            "wabaNumber": "9667464519",
-            "defaultStatus": true,
-            "subTypeVariant": "Realtime"
-        }, {
-            "wabaCode": "WA-0125",
-            "wabaName": "WABA_API_Normal_Bulk",
-            "wabaNumber": "9667464519",
-            "defaultStatus": true,
-            "subTypeVariant": "Bulk"
-        }
-    ]
-}
+755b3025-c9c6-42ab-8c33-ae31153d626c
