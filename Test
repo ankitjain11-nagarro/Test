@@ -1,17 +1,1 @@
-curl 'https://d2vluxb694imb6.cloudfront.net/dev/maruti/campaign/v1/template/filtered-list' \
-  -H 'accept: application/json, text/plain, */*' \
-  -H 'accept-language: en-US,en;q=0.9' \
-  -H 'authorization: eyJraWQiOiJ5ZVdZdG0rZldUd3ZpVEF1XC9UYlFrU2d5WlVKZjdiMWJSNTdod3dGZCsrVT0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoiQlYtMm9WYm9KZEhqQ3d5aWQ4UTBzUSIsInN1YiI6IjQ0MzZlNTUyLTY4ZjAtNDczZi1iNWFhLTIwNmMyODk5OGJmOCIsImNvZ25pdG86Z3JvdXBzIjpbImFwLXNvdXRoLTFfSXVTSDBSc2MwX0FELU1TSUwiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9JdVNIMFJzYzAiLCJzZGs6YXV0aGVudGljYXRpb25GbG93VHlwZSI6IlVTRVJfU1JQX0FVVEgiLCJzZGs6dXNlclBvb2xXZWJDbGllbnRJZCI6IjVqdHE0M2dwdDM3aW9wcHI2amM1NWUxbW5hIiwic2RrOmdhdGV3YXlVcmwiOiJodHRwczpcL1wveTJ2c3lkNDdlYy5leGVjdXRlLWFwaS5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb21cL2NvbW1vbi1kZXYtbXVtYmFpXC8iLCJpZGVudGl0aWVzIjpbeyJ1c2VySWQiOiJNQVJVVElcXDU4MTU0MiIsInByb3ZpZGVyTmFtZSI6IkFELU1TSUwiLCJwcm92aWRlclR5cGUiOiJTQU1MIiwiaXNzdWVyIjoiaHR0cDpcL1wvQURGUy5NYXJ1dGkuY28uaW5cL2FkZnNcL3NlcnZpY2VzXC90cnVzdCIsInByaW1hcnkiOiJ0cnVlIiwiZGF0ZUNyZWF0ZWQiOiIxNzM4NzQ4NTY1NTQyIn1dLCJhdXRoX3RpbWUiOjE3NDYxMTcwNjUsInNkazphdXRoU2VydmVyVXJsIjoiaHR0cHM6XC9cL3kydnN5ZDQ3ZWMuZXhlY3V0ZS1hcGkuYXAtc291dGgtMS5hbWF6b25hd3MuY29tXC9jb21tb24tZGV2LW11bWJhaVwvIiwiZXhwIjoxNzQ2MTIwNjY1LCJpYXQiOjE3NDYxMTcwNjUsImp0aSI6IjAzMjkxZGNhLTdhNTAtNDU3MC1hNWY1LTY2OTAyZTExZTAxZSIsImVtYWlsIjoiUHJpbmNlLlRpd2FyaUBtYXJ1dGkuY28uaW4iLCJzZGs6dXNlclBvb2xJZCI6ImFwLXNvdXRoLTFfSXVTSDBSc2MwIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJncm91cHMiOiJXRUFUSEVSLVNFUlZJQ0UtUlNNfENNLVNVUEVSLUFETUlOfENYTS1QT1JUQUwtQk8tVVNFUl9NR01UfENYTS1QT1JUQUwtU1VQRVItQURNSU4iLCJjb2duaXRvOnVzZXJuYW1lIjoiYWQtbXNpbF9tYXJ1dGlcXDU4MTU0MiIsIm5vbmNlIjoiTXU4ZGFqZkxnOThlWVZFcFN4SVp1TWIzeV9kV2hEeWhZLUp1SldvWDdvNWlhc1JJdWJuSXJHcDdId3RDRkZoZWlyTkJSNXZKMzk5N2pWemFLUlJHa0ZySHZWNGd4NUluT3VMaV82cHNFWEJjR2dlMGZ2MFRYOXBTVU1Ea0dZdDFzRlRHNzBWVFhpRHB6eUpSZDBwLUNuMkVVOVV1aG8xVDFza1ZWME1GVnRnIiwic2RrOmRvbWFpbiI6IkFELU1TSUwiLCJvcmlnaW5fanRpIjoiM2NkZWY2NDItOGM3OS00MWZkLTgxNGQtZDFhNmJmZTM1ZWVlIiwiYXVkIjoiNWp0cTQzZ3B0Mzdpb3BwcjZqYzU1ZTFtbmEiLCJ0b2tlbl91c2UiOiJpZCIsInNkazphdXRoU2VydmVyIjoibXNpbC10b2tlbi1kZXYtc2VydmVyLmF1dGguYXAtc291dGgtMS5hbWF6b25jb2duaXRvLmNvbSIsInNkazpyZWdpb24iOiJhcC1zb3V0aC0xIn0.EgOlkJGZhpvQ30R4hOoZo4pHBMECSz0D-h1_I_vFlcooFwH-jdeGss3AvtVPuSVEixjEIzFjr-OiiSpKj94-E9Wkhzc-3g_MuQHChV-w3BIMQuThCEMJY17nLdKP_r_IyBvH_d_Q_QEpdOuxmp_7AS6M698Ji_DIgpicGw4F7kQUol2FvUVCLTjO8KVsHrDvk_cwPn3idl2MGYcPZYWiicdCW6gNl2xCG_N2BduRBX2Yp_nD6guF-ofZaLrJprUJG-wu7taenzli_Bxkpl7LXyQzcM1KgQtwbX_pbv9XAw49e8iH1V5t_9bmsQU4_YlG8PdJCocIC2z_-ibNyjFa2g' \
-  -H 'content-type: application/json' \
-  -H 'origin: https://dev.campaign.communicationmanager.in' \
-  -H 'priority: u=1, i' \
-  -H 'referer: https://dev.campaign.communicationmanager.in/' \
-  -H 'sec-ch-ua: "Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"' \
-  -H 'sec-ch-ua-mobile: ?0' \
-  -H 'sec-ch-ua-platform: "Windows"' \
-  -H 'sec-fetch-dest: empty' \
-  -H 'sec-fetch-mode: cors' \
-  -H 'sec-fetch-site: cross-site' \
-  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' \
-  -H 'x-api-key: LS8LArIgBt34vKrCFOIYp4skbhj7yUAA35UaO2tn' \
-  --data-raw '{"filterValue":"","pageNumber":0,"pageSize":10,"filterType":"","status":["PUBLISHED","PENDING","RETIRED","REJECTED"],"channel":"SMS"}'
+ef6b0971-15c4-4295-b2db-7fb402b35247
