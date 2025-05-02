@@ -1,1 +1,19 @@
-/maruti/reporting/v2/sms/real-time/delivery-status
+{
+    "wabaName": "wabaForTest1",
+    "wabaNumber": "9999999998",
+    "description": "test",
+    "bsp": "TCL",
+    "bspSubType": "TCL_CLOUD_API",
+    "wabaTypeDetail": {
+        "type": "API",
+        "wabaSubTypeDetail": {
+            "type": "NORMAL"
+        }
+    },
+    "organizationDetail": {
+        "organization": "MSIL",
+        "vertical": "DE",
+        "division": "DE",
+        "department": "DES"
+    }
+}
