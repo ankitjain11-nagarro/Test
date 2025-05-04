@@ -1,1 +1,3 @@
-https://d2g4mattq31ii8.cloudfront.net/attachment/images/Invicto creative_T2_28102024132149.jpg
+URL url = URI.create(urlPath).toURL();
+getting below error for url: https://d2g4mattq31ii8.cloudfront.net/attachment/images/Invicto creative_T2_28102024132149.jpg
+IllegalArgumentException: Illegal character in path at index 63: https://d2g4mattq31ii8.cloudfront.net/attachment/images/Invicto creative_T2_28102024132149.jpg
