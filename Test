@@ -1,2 +1,1 @@
-UPDATE waba_details SET bsp = 'TCL', bsp_sub_type = 'Cloud API';
-UPDATE waba_url_master SET bsp = 'TCL', bsp_sub_type = 'Cloud API';
+Map<String, String> sesPriorityEvents = Map.of("Sent", "1", "Send", "2", "Delivery", "3", "Open", "4", "Click", "5");
