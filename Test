@@ -1,3 +1,4 @@
 spring.r2dbc.url=r2dbc:postgresql://cm-campaign-dev.c98xt1ohv1jd.ap-south-1.rds.amazonaws.com:5432/campaign_db?sslmode=require
 spring.r2dbc.username=campaignUser
 spring.r2dbc.password=campaignUser123
+spring.data.redis.host=cm-dev-redis-cache.vhxilq.clustercfg.aps1.cache.amazonaws.com
