@@ -1,1 +1,3 @@
 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-1
+
+SELECT bsp_master.id, bsp_master.bsp, bsp_master.channel, bsp_master.bsp_type, bsp_master.active FROM bsp_master WHERE bsp_master.channel = $1 AND (bsp_master.active = $2)
