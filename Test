@@ -10,6 +10,9 @@ ALTER TABLE public.rcs_report_tiny_url_click_info ADD COLUMN carousel BOOLEAN;
 ALTER TABLE public.rcs_report_tiny_url_click_info ADD COLUMN card_sequence VARCHAR(255);
 ALTER TABLE public.rcs_report_tiny_url_click_info ADD COLUMN cta_sequence VARCHAR(255);
 
+-- Create schema if not exists
+CREATE SCHEMA IF NOT EXISTS customer_data;
+
 CREATE TABLE customer_data.consent (
     created_date timestamp with time zone,
     icp_id bigint NOT NULL,
