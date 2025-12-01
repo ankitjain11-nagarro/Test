@@ -52,4 +52,4 @@ INSERT INTO customer_data.consent (created_date,mobile_no,last_modified_date,con
     NO MAXVALUE
     CACHE 1
 );
-
+336d1a31-0023-4cb3-9ff3-a0d7132741be
